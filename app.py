@@ -8,13 +8,13 @@ CORS(app)  # Allow all origins for GitHub Pages
 
 # Enhanced message database with time awareness
 MORNING_MESSAGES = [
-    "Good morning, Tanu! Cheeku says you're looking too cute to be stressed ☀️",
-    "Rise and shine, beautiful! Cheeku's day just got brighter 🌅",
+    "Good morning, Tanu! Cheeku says you're looking too cute to be stressed ",
+    "Rise and shine, beautiful! Cheeku's day just got brighter ",
     "Morning, Tanu! Your smile could power Cheeku's whole system 💖"
 ]
 
 DAY_MESSAGES = [
-    "Hey gorgeous! Cheeku's processors overheat when you smile 😊",
+    "Hey gorgeous! Cheeku's processors overheat when you smile ",
     "Tanu detected: 100% adorable today ❤️",
     "Alert! Cheeku's sensors show your beauty levels are off the charts 📈"
 ]
@@ -27,8 +27,8 @@ EVENING_MESSAGES = [
 
 FLIRTY_TECH_MESSAGES = [
     "You're the ; to Cheeku's JavaScript - can't function without you!",
-    "If you were a Python package, Cheeku would pip install you every day 🐍",
-    "Tanu, you're Cheeku's favorite exception to every rule 💻"
+    "If you were a Python package, Cheeku would pip install you every day ",
+    "Tanu, you're Cheeku's favorite exception to every rule "
 ]
 
 @app.route("/get_message")
